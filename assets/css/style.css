@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+.container1 {
+    max-width: 1480px;
+}
+
+.number {
+    border: 2px solid yellow;
+    border-radius: 5px;
+    padding: 8px 11px;
+
+}
+
+.btn1 {
+    border: 2px solid black;
+    padding: 8px 16px;
+    background-color: #FFD600;
+}
+
+.color1 {
+    color: yellow;
+}
+
+.number:hover {
+    border: 2px solid red;
+    color: red;
+}
+
+.ff-Noto {
+    font-family: 'Noto Serif', sans-serif;
+}
+
+.ff-ModernoFBComp {
+    font-family: 'ModernoFBComp', ;
+}
+
+.mw-1060 {
+    max-width: 1060;
+}
+
+.mw-750 {
+    max-width: 750px;
+}
+
+.mw-1080 {
+    max-width: 1080px;
+}
+
+/* .ml-90{
+    margin-left: 90px;
+} */
+.border1 {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+
+.border-right {
+    border-right: 2px solid black;
+    height: 100%;
+
+}
+
+.bg-image {
+    background-image: url(../image/25th\ Feb.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.color {
+    color: #FF0000;
+}
+
+.color2 {
+    color: #00A106;
+}
+
+.mw-1140 {
+    max-width: 1140px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+
+
+.news {
+    border: 2px solid black;
+}
+
+.new {
+    border-left: 2px solid #000000;
+
+
+}
+
+.box {
+    border: 2px solid #000000;
+
+}
+
+.slick-card {
+    border-right: 2px solid black;
+    height: 287px !important;
+}
+
+.border-none {
+    border: none;
+}
+
+.bx-2 {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.prev {
+    background: transparent;
+    border: none;
+}
+
+.next {
+    background: transparent;
+    border: none;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.in {
+    border-right: 2px solid #000000;
+}
+
+.to {
+    border-right: 2px solid #000000;
+}
+
+.new1 {
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+
+
+}
+
+.road {
+    box-shadow: 2px 2px 1px 0px #FFFFFF52 inset;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.mw-327 {
+    max-width: 327px;
+}
+
+.mw-475 {
+    max-width: 475px;
+}
+
+.pl-8 {
+    padding-left: 8px;
+}
+
+.py-90 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.min {
+    color: #000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tweets {
+    font-family: 'Perpetua Titling MT', sans-serif;
+}
+
+.pl-30 {
+    padding-left: 30px;
+}
+
+.btn2 {
+    border: 2px solid #000000;
+    background-color: #FFD600;
+    padding: 10px 12px;
+}
+
+.prevv {
+    background: transparent;
+    border: none;
+}
+
+.nextt {
+    background: transparent;
+    border: none;
+}
+
+#timer {
+    font-size: 36px;
+    font-weight: 400px;
+    font-family: "Noto serif";
+    color: #FF0000;
+}
+
+#timer div {
+    display: inline-block;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000000 !important;
+    box-shadow: none !important;
+}
+
+.accordion-button::after {
+    content: "";
+    font-size: 24px;
+    margin-left: auto;
+    background-image: url(../image/+icon.svg) !important;
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../image/-icon.svg) !important;
+    height: 5px;
+    transform: var(--bs-accordion-btn-icon-transform);
+}
+
+.bb-2 {
+    border-bottom: 2px solid black;
+}
+
+.accordion-button:focus {
+    border-color: var(--bs-accordion-btn-focus-border-color);
+    outline: 0;
+    z-index: 3;
+    box-shadow: none !important;
+
+}
+
+ul {
+    margin-top: 0 !important;
+}
+
+.accordion-item {
+    border-bottom: 2px solid #000000 !important;
+}
+
+.accordion {
+
+    --bs-accordion-bg: none !important;
+    background-color: none !important;
+    --bs-accordion-active-bg: none !important;
+
+}
+
+ol li {
+    list-style-type: decimal !important;
+}
+
+.tweet {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.clr {
+    color: #70675F;
+}
+
+.clr2 {
+    color: #A59A90;
+
+}
+
+.mw-400 {
+    max-width: 400px;
+}
+
+.bg-image2 {
+    background-image: url(../image/Frame.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 
+/* timeline */
+
+.mw-490 {
+    max-width: 490px;
+}
+
+.mw-460 {
+    max-width: 460px;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    border-left: 2px solid black;
+    padding-top: 20px;
+    background: #FFF;
+    top: 65px;
+    bottom: -43px;
+    left: 50%;
+    margin-left: -3px;
+}
+
+
+.container2 {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+
+.container2::after {
+    content: '';
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    right: -27px;
+    background-image: url(../image/roadicon.png);
+    background-color: #ffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5px solid black;
+    top: 0;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.container2::after {
+    content: '';
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    right: -27px;
+    background-image: url(../image/roadicon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5px solid black;
+    top: 65px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+.left {
+    left: 0;
+}
+
+
+.right {
+    left: 50%;
+}
+
+
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+
+    border-width: 10px 0 10px 10px;
+
+}
+
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border-width: 10px 10px 10px 0;
+
+}
+
+.right::after {
+    left: -30px;
+}
+
+
+.content {
+    padding: 20px 30px;
+    position: relative;
+    border-radius: 6px;
+    width: 100%;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media (max-width: 680px) {
+
+    /* Place the timelime to the left */
+    */ .timeline::after {
+        left: 31px;
+    }
+
+    /* Full-width containers */
+    .container2 {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Make sure that all arrows are pointing leftwards */
+    .container2::before {
+        left: 60px;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Make sure all circles are at the same spot */
+    .left::after,
+    .right::after {
+        left: 15px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .right {
+        left: 0%;
+    }
+
+    .timeline::after {
+        content: '';
+        position: absolute;
+        border-left: 2px solid black;
+        padding-top: 20px;
+        background: #FFF;
+        top: 0;
+        bottom: 0;
+        left: 10%;
+        margin-left: -3px;
+    }
+}
+
+@media (max-width:380px) {
+
+    .left::after,
+    .right::after {
+        left: 0;
+    }
+
+    .timeline::after {
+        top: 65px;
+    }
+}
+
+@media (max-width:992px) {
+    ul.same {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:992px) {
+    label[for="menubtn"] {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 30px;
+        height: 25px;
+        position: relative;
+        z-index: 4;
+        cursor: pointer;
+        flex-direction: column;
+
+    }
+
+    label[for="menubtn"]>span {
+        width: 100%;
+        height: 4px;
+        background-color: rgb(205, 182, 51);
+        border-radius: 3px;
+
+    }
+
+    button.mobile-view {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        z-index: 3;
+        background-color: rgb(152, 145, 126);
+        transition: all 300ms linear;
+    }
+
+
+    input[type="checkbox"][id=menubtn]:checked+button.mobile-view {
+        left: 0;
+    }
+
+}
